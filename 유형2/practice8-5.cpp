@@ -1,5 +1,5 @@
 /*
-BaseArray를 상속받아 큐처럼 작동하는 MyQueue클래스를 작성하라. MyQueue를 활용하는 사례는 다음과 같다.
+# BaseArray를 상속받아 큐처럼 작동하는 MyQueue클래스를 작성하라. MyQueue를 활용하는 사례는 다음과 같다.
 */
 
 #include <iostream>

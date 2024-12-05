@@ -21,7 +21,8 @@ class NamedCircle : public Circle
     string name;
 
 public:
-    NamedCircle(int radius = 0, string n = "") : Circle(radius) {
+    NamedCircle(int radius = 0, string n = "") {
+        setR(radius);
         name = n;
     }
     void set(int r, string n)

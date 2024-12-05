@@ -1,7 +1,6 @@
 /* --------------------------------------------------------------
 사각형에 내접하는 도형을 표현하기 위한 추상클래스인 Shape 클래스가 있다.
 hape클래스를 상속받아 타원을 표현하는 Oval, 사각형을 표현하는 Rect, 삼각형을 표현하는 Triangular클래스를 작성하라.
-
 ----------------------------------------------------------------*/
 #include <iostream>
 #include <string>
@@ -67,7 +66,6 @@ int main()
     for (int i = 0; i < 3; i++)
         cout << p[i]->getName() << " 넓이는 " << p[i]->getArea() << endl;
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 3; i++) delete p[i];
     
-    delete p[i];
 }

@@ -10,10 +10,12 @@ return :
 */
 #include <iostream>
 #include <string>
+#include <cctype>
+
 using namespace std;
 
 istream& prompt(istream& in){
-    cout << "PASSWORD?";
+    cout << "암호?";
     return in;
 }
 
